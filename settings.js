@@ -19,7 +19,7 @@ require('dotenv').config()
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
-creator = '乂𝘼𝙡𝙞𝙥乂' // Nama 
+creator = '乂𝘼njasXD' // Nama 
 port = 8080 //port host
 LimitApikey = 200 // Limit Apikey default
 
@@ -31,11 +31,11 @@ keymongodb = process.env.mongodb //example "mongodb+srv://user:password@name_dat
 
 //note service SMTP Gmail Tidak Boleh Send Kat Temp Email Kalau mahu pakai temp email buat di service lain
 usetempemail = false // kalau true boleh sing up pakai email temp kalau pakai service gmail pakai false je 
-servicesmtp = 'Gmail'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 limit sendinblue 300 free. List service smtp : https://nodemailer.com/smtp/well-known/
-sendemail = process.env.sendemail //Email SMTP
-fromsendemail = process.env.fromsendemail // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
-sendpwmail = process.env.sendpwmail // Password Email SMTP
-domain = 'alpis.eu.org'// domain website tanpa http or https
+servicesmtp = 'bowwo924@gmail.com'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 limit sendinblue 300 free. List service smtp : https://nodemailer.com/smtp/well-known/
+sendemail = process.env.bowwo924@gmail.com //Email SMTP
+fromsendemail = process.env.bowwo924@gmail.com // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
+sendpwmail = process.env.zqtpocjbxrvysuak // Password Email SMTP
+domain = 'apikey.annov.online'// domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
